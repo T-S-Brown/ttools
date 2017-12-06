@@ -9,6 +9,8 @@
 #' simulate_sample_data(n = 10, t = 6)
 
 simulate_sample_data <- function(n,t) {
+
+  require(dplyr)
   # Simulate Demographic / Baseline Data
   id_data <- data.frame(
     id = (1:n),
