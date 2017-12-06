@@ -3,7 +3,7 @@ Type: Package
 Title: A suite of personal tools for implementing kick-ass Data Science in R
 Version: 0.1.0
 Author: Thomas Brown
-Maintainer: tom@tsbrown.net
+Maintainer: Thomas Brown <tom@tsbrown.net>
 Description: All functions are in development and are highly unstable
 License: MIT
 Encoding: UTF-8
