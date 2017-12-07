@@ -16,7 +16,7 @@ classy_acc <- function(pred, real) {
   result_data <- data.frame(pred,
                             real)
 
-  result_data <- dplyr::mutate(results_data,
+  result_data <- dplyr::mutate(result_data,
                                outcome == case_when(
                                  pred == real ~ 1,
                                  TRUE ~ 0
