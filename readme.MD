@@ -1,6 +1,6 @@
 # ttools
 ## Thomas Brown
-### A suite of personal functions for doing kick-ass Data Science in R
+### A collection of personal R functions
 
 This repository contains an R package egotistically called ttools. There is no intention for this to be released on CRAN, rather its functionality is a space for personal functions to make development and production simpler in R. 
 
