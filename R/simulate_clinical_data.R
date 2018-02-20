@@ -1,4 +1,4 @@
-#' Simulate Sample Data
+#' Simulate Clinical Data
 #'
 #' Simulates a simple dataset based on two parameters; the number of subjects and timepoints.
 #' @param n Number of subjects for the simulated data
@@ -8,7 +8,7 @@
 #' @examples
 #' simulate_sample_data(n = 10, t = 6)
 
-simulate_sample_data <- function(n,t) {
+simulate_clinical_data <- function(n,t) {
 
   require(dplyr)
   # Simulate Demographic / Baseline Data
